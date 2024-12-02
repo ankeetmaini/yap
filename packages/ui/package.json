@@ -1,0 +1,11 @@
+{
+    "name": "@project/ui",
+    "version": "0.1.0",
+    "type": "module",
+    "dependencies": {
+      "@project/player": "workspace:*"
+    },
+    "scripts": {
+      "start": "npx http-server"
+    }
+  }

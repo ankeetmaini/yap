@@ -1,0 +1,15 @@
+{
+    "name": "yap",
+    "private": true,
+    "workspaces": [
+      "packages/*"
+    ],
+    "scripts": {
+      "start": "npm run start -w @project/ui",
+      "build:player": "npm run build -w @project/player",
+      "dev": "npm run start"
+    },
+    "devDependencies": {
+      "http-server": "^14.1.1"
+    }
+  }
